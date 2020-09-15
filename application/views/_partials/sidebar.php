@@ -14,16 +14,19 @@
                                 <div id="submenu-2" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?= site_url('Admin/Slider');?>">Data Slider</a>
+                                            <a class="nav-link" href="<?= site_url('Admin/Slider'); ?>">Data Slider</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?= site_url('Admin/Visi');?>">Data Visi</a>
+                                            <a class="nav-link" href="<?= site_url('Admin/Visi'); ?>">Data Visi</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?= site_url('Admin/Misi');?>">Data Misi</a>
+                                            <a class="nav-link" href="<?= site_url('Admin/Misi'); ?>">Data Misi</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?= site_url('Admin/Layanan');?>">Data Layanan</a>
+                                            <a class="nav-link" href="<?= site_url('Admin/Layanan'); ?>">Data Layanan</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="<?= site_url('Admin/Tentang'); ?>">Data Tentang</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -33,13 +36,13 @@
                                 <div id="submenu-3" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?= site_url('Admin/Kategori');?>">Data Kategori</a>
+                                            <a class="nav-link" href="<?= site_url('Admin/Kategori'); ?>">Data Kategori</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?= site_url('Admin/Pariwisata');?>">Data Wisata</a>
+                                            <a class="nav-link" href="<?= site_url('Admin/Pariwisata'); ?>">Data Wisata</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?= site_url('Admin/Travel');?>">Data Travel</a>
+                                            <a class="nav-link" href="<?= site_url('Admin/Travel'); ?>">Data Travel</a>
                                         </li>
 
                                     </ul>
@@ -50,10 +53,10 @@
                                 <div id="submenu-10" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?= site_url('Admin/Bagian');?>">Data Bagian</a>
+                                            <a class="nav-link" href="<?= site_url('Admin/Bagian'); ?>">Data Bagian</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?= site_url('Admin/Pengurus');?>">Data Pengurus</a>
+                                            <a class="nav-link" href="<?= site_url('Admin/Pengurus'); ?>">Data Pengurus</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -76,7 +79,7 @@
                                 <div id="submenu-5" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?= site_url('Admin/Berita');?>">Data Berita</a>
+                                            <a class="nav-link" href="<?= site_url('Admin/Berita'); ?>">Data Berita</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -86,10 +89,10 @@
                                 <div id="submenu-7" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?= site_url('Admin/Foto');?>">Galeri Foto</a>
+                                            <a class="nav-link" href="<?= site_url('Admin/Foto'); ?>">Galeri Foto</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?= site_url('Admin/Video');?>">Galeri Video</a>
+                                            <a class="nav-link" href="<?= site_url('Admin/Video'); ?>">Galeri Video</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -99,7 +102,7 @@
                                 <div id="submenu-8" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?= site_url('Admin/Kontak');?>">Data Kontak</a>
+                                            <a class="nav-link" href="<?= site_url('Admin/Kontak'); ?>">Data Kontak</a>
                                         </li>
                                     </ul>
                                 </div>
