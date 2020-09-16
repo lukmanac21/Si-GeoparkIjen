@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <?php $this->load->view('part/head');?>
-	</head>
-  <body>
 
-   <!--START SCROLL TOP BUTTON -->
-    <a class="scrollToTop" href="#">
-      <i class="fa fa-angle-up"></i>
-    </a>
-  <!-- END SCROLL TOP BUTTON -->
-  	
-  	<!-- Start Header -->
-    <?php $this->load->view('part/navbar');?>
+<head>
+	<?php $this->load->view('part/head'); ?>
+</head>
+
+<body>
+
+	<!--START SCROLL TOP BUTTON -->
+	<a class="scrollToTop" href="#">
+		<i class="fa fa-angle-up"></i>
+	</a>
+	<!-- END SCROLL TOP BUTTON -->
+
+	<!-- Start Header -->
+	<?php $this->load->view('part/navbar'); ?>
 	<!-- End Header -->
 
 	<!-- Start slider area -->
 	<div id="mu-slider">
 		<div class="mu-slide">
-      <!-- Start single slide  -->
-      <?php foreach($slider as $row_slider){?>
-			<div class="mu-single-slide">
-				<img src="<?= base_url();?>assets/img/slider/<?= $row_slider->img_slider?>" alt="slider img">
-				<div class="mu-single-slide-content-area">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="mu-single-slide-content">
-									<h1><?= $row_slider->judul_slider?></h1>
-									<p><?= $row_slider->keterangan?></p>
+			<!-- Start single slide  -->
+			<?php foreach ($slider as $row_slider) { ?>
+				<div class="mu-single-slide">
+					<img src="<?= base_url(); ?>assets/img/slider/<?= $row_slider->img_slider ?>" alt="slider img">
+					<div class="mu-single-slide-content-area">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="mu-single-slide-content">
+										<h1><?= $row_slider->judul_slider ?></h1>
+										<p><?= $row_slider->keterangan ?></p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-      </div>
-      <?php } ?>
+			<?php } ?>
 			<!-- End single slide  -->
-    </div>
+		</div>
 	</div>
 	<!-- End Slider area -->
 
-	
+
 	<!-- Start main content -->
 	<main>
 		<!-- Start About -->
@@ -55,7 +57,7 @@
 								<div class="col-md-12">
 									<div class="mu-title">
 										<h2>Tentang Geopark</h2>
-										<p><?= $tentang['ket_tentang']?></p>
+										<p><?= $tentang['ket_tentang'] ?></p>
 									</div>
 								</div>
 							</div>
@@ -63,7 +65,7 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="mu-about-left">
-										<img class="" src="<?= base_url();?>assets/user/images/about-us.jpg" alt="img">
+										<img class="" src="<?= base_url(); ?>assets/user/images/about-us.jpg" alt="img">
 									</div>
 								</div>
 								<div class="col-md-6">
@@ -71,13 +73,13 @@
 										<ul>
 											<li>
 												<h3>Visi</h3>
-                        <p><?= $visi['ket_visi']?></p>
+												<p><?= $visi['ket_visi'] ?></p>
 											</li>
 											<li>
-                        <h3>Misi</h3>
-                        <?php foreach($misi as $row_misi){?>
-                        <p><?= $row_misi->ket_misi?></p>
-                        <?php } ?>
+												<h3>Misi</h3>
+												<?php foreach ($misi as $row_misi) { ?>
+													<p><?= $row_misi->ket_misi ?></p>
+												<?php } ?>
 											</li>
 										</ul>
 									</div>
@@ -106,7 +108,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- Start Services -->
 		<section id="mu-service">
 			<div class="container">
@@ -127,15 +129,15 @@
 									<div class="mu-service-content">
 										<div class="row">
 											<!-- Start single service -->
-											<?php foreach($layanan as $row_layanan){?>
-											<div class="col-md-4">
-												<div class="mu-single-service">
-													<div class="mu-single-service-content">
-														<img><?= $row_layanan->img_layanan?></img>
-														<p><?= $row_layanan->nama_layanan?></p>
+											<?php foreach ($layanan as $row_layanan) { ?>
+												<div class="col-md-4">
+													<div class="mu-single-service">
+														<div class="mu-single-service-content">
+															<img><?= $row_layanan->img_layanan ?></img>
+															<p><?= $row_layanan->nama_layanan ?></p>
+														</div>
 													</div>
-                        						</div>
-											</div>
+												</div>
 											<?php } ?>
 										</div>
 									</div>
@@ -162,21 +164,21 @@
 								<ul class="mu-testimonial-slide">
 
 									<li>
-										<img class="mu-rt-img" src="<?= base_url();?>assets/user/images/traveler-1.jpg" alt="img">
+										<img class="mu-rt-img" src="<?= base_url(); ?>assets/user/images/traveler-1.jpg" alt="img">
 										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa</p>
 										<h5 class="mu-rt-name">Emma Marshall</h5>
 										<span class="mu-rt-title">Web Developer </span>
 									</li>
 
 									<li>
-										<img class="mu-rt-img" src="<?= base_url();?>assets/user/images/traveler-2.jpg" alt="img">
+										<img class="mu-rt-img" src="<?= base_url(); ?>assets/user/images/traveler-2.jpg" alt="img">
 										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa</p>
 										<h5 class="mu-rt-name">Jhon Doe</h5>
 										<span class="mu-rt-title">UI/UX Designer</span>
 									</li>
 
 									<li>
-										<img class="mu-rt-img" src="<?= base_url();?>assets/user/images/traveler-3.jpg" alt="img">
+										<img class="mu-rt-img" src="<?= base_url(); ?>assets/user/images/traveler-3.jpg" alt="img">
 										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa</p>
 										<h5 class="mu-rt-name">Jessica Doe</h5>
 										<span class="mu-rt-title">Web Designer </span>
@@ -193,14 +195,15 @@
 		<!-- End Client Testimonials -->
 
 	</main>
-	
-	<!-- End main content -->	
-			
-			
+
+	<!-- End main content -->
+
+
 	<!-- Start footer -->
-  <?php $this->load->view('part/footer');?>
-  <!-- End footer -->
-  <?php $this->load->view('part/js');?>
-    
-  </body>
+	<?php $this->load->view('part/footer'); ?>
+	<!-- End footer -->
+	<?php $this->load->view('part/js'); ?>
+
+</body>
+
 </html>
